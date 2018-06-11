@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bg {
+    /* The image used */
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),url("image.jpg");
+    height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.cursive{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+  margin-bottom: 50px
+}
+
+.About{
+    margin: 20px;
+}
+
+.Contact{
+    margin: 20px;
+}
