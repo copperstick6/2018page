@@ -16,11 +16,11 @@ class App extends Component {
           <br />
           <p>My name is William Han.</p>
           <br />
-          <p>I believe in doing the right thing. <mark><b>Always.</b></mark></p>
+          <p>I believe in doing the right thing. <b>Always.</b></p>
           <br />
-          <p>I believe in helping people who are less priveleged than me. <mark><b>Because we should always consider and help those who aren&#39;t as lucky as us.</b></mark></p>
+          <p>I believe in helping people who are less privileged than me. <b>Because we should always consider and help those who aren&#39;t as lucky as us.</b></p>
           <br />
-          <p>And I believe in <mark><b>love</b></mark>: loving yourself and everyone around you.</p>
+          <p>And I believe in <b>love</b>: loving yourself and everyone around you.</p>
           <br />
           <hr />
           <p><b>UTCS &#39;19</b></p>
@@ -47,13 +47,13 @@ class App extends Component {
          <h2><a style={{color: "black"}} href="https://drive.google.com/file/d/14DI1AHw7DQUoaafvGQNcr9-iZmWvG_xS/view?usp=sharing">Resume</a></h2>
          </div>
         </main>
-        <footer>
+        <div>
         <center>
         <p style={{color: 'white'}}>We all make mistakes, and that&#39;s okay. What matters is how we learn from them and use that experience going forwared. <br />True friends always forgive and forget.</p>
         <p style={{fontSize:"15px"}}>&copy;2018 William Han <br /> Made with &hearts; by @copperstick6.</p>
         </center>
 
-        </footer>
+        </div>
       </div>
     );
   }
