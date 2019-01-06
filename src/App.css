@@ -30,7 +30,7 @@ body {
 }
 
 .cursive{
-    font-family: "Inconsolata","Monaco","Consolas","Courier New",Courier
+    font-family: 'Inconsolata', 'Monaco', 'Consolas', 'Courier New', Courier;
 }
 
 .title h1 {
