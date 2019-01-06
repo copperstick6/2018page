@@ -16,8 +16,8 @@ export default class Header extends Component {
 	  	  <div className="title">
 	  	  <h1>Hey, I&#39;m William.</h1>
 		  	  <div className="cursive">
-			  <h2><TypeWriter typing={1} onTypingEnd={()=> this.setState({typeDone: 1})}>I write code and make stuff.</TypeWriter></h2>
-			  <h3><TypeWriter typing={this.state.typeDone}>For fun.</TypeWriter></h3>
+			  <h4><TypeWriter typing={1} onTypingEnd={()=> this.setState({typeDone: 1})}>I write code and make stuff.</TypeWriter></h4>
+			  <h5><TypeWriter typing={this.state.typeDone}>For fun.</TypeWriter></h5>
 		  	  </div>
 	  	  </div>
 

@@ -30,7 +30,7 @@ body {
 }
 
 .cursive{
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: "Inconsolata","Monaco","Consolas","Courier New",Courier
 }
 
 .title h1 {
@@ -57,4 +57,10 @@ main {
 
 .Contact{
     margin: 20px;
+}
+
+@media (max-width: 480px) {
+    footer {
+        position: static;
+    }
 }
