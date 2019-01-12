@@ -14,7 +14,8 @@ export default class Dinner extends Component {
 	componentDidMount(){
 		document.body.className = "bg-dinner"
 	}
-	handleSubmit(){
+	handleSubmit(event){
+		event.preventDefault()
 		console.log("submit")
 	}
   render () {
