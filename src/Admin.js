@@ -7,10 +7,13 @@ export default class Admin extends Component {
 	constructor(props){
 		super(props)
 		this.state = {
+			username: "",
+			password: ""
 		}
 		this.handleSubmit = this.handleSubmit.bind(this)
 	}
 	componentDidMount(){
+		document.body.className = "bg-dinner"
 	}
 	handleSubmit(event){
 		event.preventDefault()
@@ -18,9 +21,21 @@ export default class Admin extends Component {
 	}
   render () {
     return (
-		<div>
 
-		</div>
+        <div className="dinner-root">
+			<div className="dinner-box">
+		  		<h1>Admin Panel Login</h1>
+				<form onSubmit = {this.handleSubmit}>
+				Username: <input value={this.state.username} onChange = {(event) => this.setState({username: event.target.value})}/>
+				<br />
+				Password: <input type="password" value={this.state.password} onChange = {(event) => this.setState({password: event.target.value})}/>
+				<br />
+				<input type="submit" value="Leggo"/>
+				</form>
+				<br />
+				<br />
+			</div>
+        </div>
     )
   }
 }
