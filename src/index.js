@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker';
+import {CookiesProvider} from 'react-cookie'
 
-ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter><CookiesProvider><App /></CookiesProvider></BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();

@@ -2,8 +2,9 @@
 import React, {Component} from 'react'
 import './Admin.css'
 /* eslint-enable no-unused-vars */
+import {withCookies, Cookies} from 'react-cookie'
 
-export default class Admin extends Component {
+class Admin extends Component {
 	constructor(props){
 		super(props)
 		this.state = {
@@ -39,3 +40,4 @@ export default class Admin extends Component {
     )
   }
 }
+export default withCookies(Admin)
