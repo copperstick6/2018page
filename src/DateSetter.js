@@ -10,7 +10,6 @@ export default class DateSetter extends Component {
 		this.state = {
 			date: "",
 			time: "20:00",
-			validated: false
 
 		}
 		this.handleEventCreation = this.handleEventCreation.bind(this)
