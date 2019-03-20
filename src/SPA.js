@@ -51,7 +51,7 @@ export default class Page extends Component {
         <footer>
         <center>
         <p style={{color: 'white'}}>We all make mistakes, and that&#39;s okay. What matters is how we learn from them and use that experience going forward. <br />True friends always forgive and forget.</p>
-        <p style={{fontSize:"15px"}}>&copy;2018 William Han <br /> Made with &hearts; by @copperstick6.</p>
+        <p style={{fontSize:"15px"}}>&copy;{new Date().getFullYear()} William Han <br /> Made with &hearts; by @copperstick6.</p>
         </center>
 
         </footer>
