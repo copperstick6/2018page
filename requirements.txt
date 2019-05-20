@@ -1,1 +1,2 @@
-Flask==1.0.2
+Flask==0.12
+pyOpenSSL==19.0.0

@@ -16,9 +16,14 @@ def serve(path):
 		else:
 			return send_from_directory('frontend/build', 'index.html')
 
+@app.route('/resume')
+def getResume():
+    return send_from_directory("resume", "resume.pdf")
+
+
 
 if __name__ == '__main__':
     context = SSL.Context(SSL.SSLv23_METHOD)
     context.use_privatekey_file('yourserver.key')
     context.use_certificate_file('yourserver.crt')
-	app.run(use_reloader=True, port=80, threaded=True, ssl_context=context)
+    app.run(use_reloader=True, port=80, threaded=True, ssl_context=context)
