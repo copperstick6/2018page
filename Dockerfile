@@ -10,7 +10,7 @@ COPY . /usr/src/app
 RUN npm run build
 
 # production environment
-FROM nginx:1.13.9-alpine
-COPY --from=builder /usr/src/app/build /usr/share/nginx/html
+FROM python:3.7
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+RUN pip install -r requirements.txt
+CMD["python3 main.py &"]

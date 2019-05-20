@@ -64,3 +64,9 @@ main {
 .Contact{
     margin: 20px;
 }
+
+@media (max-width: 480px) {
+    footer {
+        position: static;
+    }
+}
